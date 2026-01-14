@@ -25,6 +25,7 @@ for x_count in numbers:
         output+='x'
     print(output)    
 
+#Index[starts from 0]
 names=['RupeshAnju','Aarti','Ram','shyam','Alex']
 print(names[0])#RupeshAnju    
 print(names[-1]) #alex

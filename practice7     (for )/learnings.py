@@ -25,4 +25,11 @@ for i in range(2,num+1,2):
 print("--odd number--")
 for i in range(1,num+1,2):
     print(i)    
-           
+
+#Calculate total price in a list
+prices=[10,20,30]
+print(f"Given prices={prices}")
+total =0
+for item in prices:
+    total +=item
+print(f'Total: {total}')          

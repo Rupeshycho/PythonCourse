@@ -60,5 +60,5 @@ a = int(input("Enter the first Number:"))
 b = int(input("Enter the first Number:"))
 print(f'Sum is: {a+b}')
 
-messege=input()
+message=input()
 print(message)

@@ -51,14 +51,45 @@ print(f'Starting with b(x[0]=B): {group}')
 # group=[x for x in names if x[0]!="A"]
 
 names = []
-
-# Let the user enter 6 names
 for i in range(6):
     x = input("Enter the name: ")
-    names.append(x.capitalize())   # capitalize before adding
-
-# Filter names that do NOT start with 'A'
+    names.append(x.capitalize())  
+    
 group = [name for name in names if name[0]!=("A")]
 
 print("Names not starting with A:", group)
+
+# Ask user how many names they want to input
+n = int(input("How many names do you want to enter? "))
+
+names = []
+
+# Loop exactly n times
+for i in range(n):
+    x = input(f"Enter name {i+1}: ")
+    names.append(x.capitalize())   # capitalize before storing
+
+# Filter names that do NOT start with 'A'
+group = [name for name in names if not name.startswith("A")]
+
+print("Names entered:", names)
+
+print("Names not starting with A:", group)
+
+sports=["Football", "Basketball", "Tennis","Golf", "Volleyball"]
+group=[x  for x in sports if "ball" in x] 
+print(f'Sports ending with ball:{group}')
+
+
+
+scores=[68,44,87,87,99,76,78]
+group=[x for x in scores if x > 80]
+print(f'Marks(>0): {group}')
+
+
+print("Word length Longer that 4 letters".center(40,"-"))
+words=["tree","RupeshAnju","AnjuRupesh","RamSita","Sitaram","pray","keep"]
+new_list=[x for x in words if len(x)>4]
+print(f'More than 4 letters: {new_list}')
+
 

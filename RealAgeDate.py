@@ -14,5 +14,3 @@ print(d.days,"Days")
 
 print(d.total_seconds(), "Seconds")
 
-
-print(datetime.now().total_seconds(),"Seconds_print")

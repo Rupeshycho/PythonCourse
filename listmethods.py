@@ -23,7 +23,7 @@ if remove_last=="y":
     print("Last'4' removed (pop): ",numbers)
 else: 
     print(numbers)  
-#Find index 
+#Find index
 def index_num():
     try:
         print("Find Index: ".center(40,"="))

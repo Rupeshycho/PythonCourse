@@ -28,3 +28,12 @@ numbers.append(10)
 print("numbers will be same no changes with append:\n",numbers2)
 
 # WAP to remove the duplicates in a list.
+
+def list_set():
+    numbers=[12,12,3,4,5,6,7]
+    into_set=set(numbers)
+    print("Into Set(without duplicates): ", into_set)
+    into_list=list(into_set)
+    print("Now\nInto List: ",into_list)
+list_set()
+

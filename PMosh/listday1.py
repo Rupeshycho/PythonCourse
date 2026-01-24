@@ -37,3 +37,13 @@ def list_set():
     print("Now\nInto List: ",into_list)
 list_set()
 
+print("\n","in, not in ".center(40,"="))
+def list_in():
+    numbers=[2,2,4,6,3,4,6,1]
+    print("numbers= ",numbers)
+    uniques=[]
+    for num in numbers:
+        if num not in uniques:
+            uniques.append(num)
+    print("Uniques= ",uniques)        
+list_in()

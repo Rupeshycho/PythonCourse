@@ -98,3 +98,21 @@ print(f'fruits= {fruits}')
 for idx, fruit in enumerate(fruits):
     if fruit=="banana":
         print(f'Banana found at indes: {idx}')
+print("======enumerate(list, tuples, strings, dictionaries)======")        
+name="Rupesh"
+for index, letter in enumerate(name):
+    print(index,letter)        
+
+numbers=(9,10,20,30)
+print(f'numbers= {numbers}')    
+for idx, num in enumerate(numbers, start=1):
+    print(idx, num)
+
+my_dict={"a":1, "b":2, "c":3}
+print(f'my_dict= {my_dict}')
+for i, item in enumerate(my_dict):
+    print(i, item)
+
+print(my_dict.items())
+for i, (key,value) in enumerate(my_dict.items()):
+    print(i,key,value)    

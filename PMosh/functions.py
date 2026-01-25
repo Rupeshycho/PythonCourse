@@ -8,4 +8,13 @@ def greet_user():
     return name
 print(">>>Interview>>>")    
 name=greet_user()   
-print(f'Thank you Mr.{name}.')
+print(f'Thank you Mr.{name}.\n')
+
+#parameters
+def greeting(name):
+    print("Hi there!")
+    print("Welcome aboard")
+
+print(">>>Start>>>")    
+greeting("John")    
+print("Finish!")

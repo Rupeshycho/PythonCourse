@@ -115,4 +115,6 @@ for i, item in enumerate(my_dict):
 
 print(my_dict.items())
 for i, (key,value) in enumerate(my_dict.items()):
-    print(i,key,value)    
+    print(i,key,value)    #None
+    
+    

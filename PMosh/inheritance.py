@@ -10,7 +10,7 @@
 
 class Mammal:
     def walk(self):
-        print("Walk")
+        print("Walking")
         
 class Dog(Mammal):
     def bark(self):

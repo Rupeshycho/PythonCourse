@@ -7,4 +7,7 @@ print(line1)
 line2=f.readline()
 print(line2)
 # f.write("Writing to file , truncating ")
+line3=f.readline()
+print(line3)
+
 f.close()

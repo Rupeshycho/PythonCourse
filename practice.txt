@@ -1,4 +1,4 @@
 HI everyone
 We are learning File I/O
-using Python.
-I like programming in Python.
+using Java.
+I like programming in Java.

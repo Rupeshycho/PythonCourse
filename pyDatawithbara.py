@@ -27,7 +27,7 @@ for i in (1,2,3):
 else: 
     print('End ')
 
-names=["rabin", " rupesh ", "Anju budi of rupesh "]
+names=["Anju", " rupesh ", "Anju budi of rupesh "]
 for name in names: 
     if name =='Anju budi of rupesh ': 
         pass 
@@ -36,12 +36,14 @@ for name in names:
     print(f'Name = : {name}')
     
     
-emails=[
-    'data@gmail.com;',
-    'baraa@outlook.de',
-    'DROP TABLE USERS;',
-    'maria@gmail.com'
-    ]
+# emails=[
+#     'data@gmail.com',
+#     'baraa@outlook.de',
+#     'DROP TABLE USERS;',
+#     'maria@gmail.com'
+#     ]
+
+emails=input("Enter the emails: ")
 
 for email in emails: 
     if ';' in email: 
